@@ -1,7 +1,8 @@
-name = input("what is your name")
-age = int(input("what is your age"))
+hi = "Hi "
+name = input("What is your name?")
+age = int(input("What is your age?"))
 
 if age > 90:
-    print("hi", name, "youre old")
+    print(hi + name + ". You're old.")
 else:
-    print("hi", name, "youre stastically still probably old")
+    print(hi + name + ". You're stastically probably still old.")
