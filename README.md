@@ -2,7 +2,7 @@
 
 A simple Python program that takes a name input and an age input.
 
-Based on the user's inputted age, the program will either print out `Hi (name). You're old.` or `Hi (name). You're statistically probably still old.`
+Based on the user's inputted age, the program will either print out one of two pre-determined messages.
 
 ## Getting Started
 
@@ -19,6 +19,8 @@ Based on the user's inputted age, the program will either print out `Hi (name). 
 ### Usage
 
 The program will provide instructions to follow. Simply enter a name and age when prompted.
+
+The age is then compared to the integer 90. If the input is greater than 90, the program will print `Hi (name). You're old."` Otherwise, it will print `Hi (name). You're statistically probably still old.`
 
 Importantly, the age input should be an integer. If provided with anything else, the program will stop and print an error.
 
